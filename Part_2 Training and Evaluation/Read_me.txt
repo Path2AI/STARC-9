@@ -118,6 +118,7 @@ Produce comparison plots in plots/
 
 5. Evaluate the model on the validation/Test set (both internal/external)
 ------------------------------------------------------------------------
+To download the trained model weights for validation, follow the link https://huggingface.co/datasets/Path2AI/STARC-9/tree/main/Model_weights
 
 python evaluate_model.py --model modelname --batch_size --data_path <path_to_validation_data>
 
