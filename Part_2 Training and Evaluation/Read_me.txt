@@ -36,6 +36,16 @@ Path2AI/STARC-9
 	 	|---NOR
 	 	|---NCS
 	 	|---FCT
+	|---STANFORD-CRC-HE-VAL-SMALL
+		|---ADI
+         	|---LYM
+         	|---MUS
+         	|---MUC
+	 	|---BLD
+	 	|---TUM
+	 	|---NOR
+	 	|---NCS
+	 	|---FCT
 
 ===================================================
 
