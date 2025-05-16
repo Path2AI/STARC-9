@@ -31,7 +31,9 @@ from main import get_model
 # Common test dataset root (subfolders per class)
 COMMON_DATA_PATH = "/path/to/Validation_data/CURATED-TCGA-CRC-HE-20K-NORMALIZED" # TCGA_CRC validation  
                                 or
-COMMON_DATA_PATH = "/path/to/Validation_data/STANFORD-CRC-HE-VAL-LARGE"  # STANFORD-CRC validation
+COMMON_DATA_PATH = "/path/to/Validation_data/STANFORD-CRC-HE-VAL-LARGE"  # STANFORD-CRC validation LARGE dataset
+                                or
+COMMON_DATA_PATH = "/path/to/Validation_data/STANFORD-CRC-HE-VAL-SMALL"  # STANFORD-CRC validation SMALL dataset
 
 # Common base directory for evaluation outputs; each model will get its own subfolder
 COMMON_SAVE_DIR = "/path/to/save_results"
