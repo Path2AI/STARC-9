@@ -28,7 +28,7 @@ pip install torch torchvision tqdm numpy pandas matplotlib seaborn scikit-learn 
 
 Step 3: Pass the WSI folder "Dataset" and values for other parameters through the command line.    
 
-[Download the AE_CRC model from and placed it in the current folder.]
+[Download the AE_CRC model from https://huggingface.co/datasets/Path2AI/STARC-9/tree/main/AE_CRC_model_weight and placed it in the current folder.]
 
 python DeepCluster++.py --input /path/Dataset --output /path/Output --batch-size 128 --samples-per-cluster 400 --distance-groups 5 --sample-percentage 0.20  
 
